@@ -5,71 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <script src="./index.js" defer></script>
-    <style>
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            width: 100vw;
-        }
-        table, th, td{
-            border: 1px solid;
-            text-align: center;
-        }
-
-        table{
-            width: 200px;
-        }
-        td{
-            width: 25%;
-            padding: 8px;
-            cursor: pointer;
-        }
-
-
-        #display{
-            border: 1px solid;
-            margin-bottom: 6px;
-            text-align: right;
-            height: 20px;
-        }
-    </style>
+    
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="box">
-        <div id="display"></div>
+        <div id="display">
+            <div class="exp"></div>
+            <div class="res"></div>
+        </div>
         <div id="input-box">
             <table id="table">
                 <tr>
-                    <td class="input">AC</td>
-                    <td class="input">DEL</td>
-                    <td class="input">%</td>
-                    <td class="input">/</td>
+                    <td class="input green">AC</td>
+                    <td class="input green">DEL</td>
+                    <td class="input red">/</td>
+                    <td class="input red">*</td>
                 </tr>
                 <tr>
-                    <td class="input">7</td>
-                    <td class="input">8</td>
-                    <td class="input">9</td>
-                    <td class="input">*</td>
+                    <td class="input bgc">7</td>
+                    <td class="input bgc">8</td>
+                    <td class="input bgc">9</td>
+                    <td class="input red">-</td>
                 </tr>
                 <tr>
-                    <td class="input">4</td>
-                    <td class="input">5</td>
-                    <td class="input">6</td>
-                    <td class="input">-</td>
+                    <td class="input bgc">4</td>
+                    <td class="input bgc">5</td>
+                    <td class="input bgc">6</td>
+                    <td class="input red">+</td>
                 </tr>
                 <tr>
-                    <td class="input">1</td>
-                    <td class="input">2</td>
-                    <td class="input">3</td>
-                    <td class="input">+</td>
+                    <td class="input bgc">1</td>
+                    <td class="input bgc">2</td>
+                    <td class="input bgc">3</td>
+                    <td class="input orange" rowspan="2">=</td>
+                    <!-- <td class="input">+</td> -->
                 </tr>
                 <tr>
-                    <td class="input">0</td>
-                    <td class="input">00</td>
-                    <td class="input">.</td>
-                    <td class="input">=</td>
+                    <td class="input bgc">0</td>
+                    <td class="input bgc">.</td>
+                    <td class="input red">%</td>
                 </tr>
             </table>
         </div>
