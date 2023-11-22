@@ -37,7 +37,8 @@ Click here : https://harshits1r8a.github.io/Calculator/
 **Responsive Design:** The calculator is designed to be responsive and work well on various screen sizes.
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/file/d/1MqsQhOkgZDoTyp3M_uB-XegdxCIhyRDq/view?usp=sharing)
+![Screenshot 2023-11-21 140114](https://github.com/harshits1r8a/Simple-Calculator/assets/91357996/66df5f1d-79fe-405c-ac61-07f991ea6d08)
+
 
 
 ## 🚀 About Me
