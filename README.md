@@ -20,7 +20,7 @@ This project was created as a first-week task for InternPe.
 ## Demo
 
 
-Click here : https://harshits1r8a.github.io/Calculator/
+Click here : https://harshits1r8a.github.io/Simple-Calculator/
 
 
 ## Authors
